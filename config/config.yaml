@@ -1,3 +1,17 @@
-ref: /mmfs1/gscratch/stergachislab/assemblies/hg38.analysisSet.fa # path to a reference fasta
+ref: /data/hps/assoc/public/bioinformatics/annotations/Homo_sapiens/UCSC/hg38/Sequen
+ce/Bowtie2Index/genome.fa # path to a reference fasta
 ref_name: hg38 # name of the reference genome, ideally use a ucsc name
 manifest: config/config.tbl # table with samples to process
+max_t: 36 #Max number of threads to use in very distributed steps
+coverage_within_n_sd: 5 #Filter peaks that are more than x standard deviations from the mean coverage
+min_contig_length: 0 # defulat 0
+# developer options
+min_coverage: 4 # default 4
+min_per_acc_peak: 0.25 # default 0.25
+min_frac_accessible: 0.0 # default 0.0
+keep_chromosomes: "chr[0-9XY]+$" 
+max_peak_fdr: 0.05 # default 0.05
+min_fire_fdr: 0.10 # default 0.10
+min_msp: 10 # default 10
+min_ave_msp_size: 10 # default 10
+
