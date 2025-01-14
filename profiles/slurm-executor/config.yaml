@@ -2,11 +2,13 @@ executor: slurm
 jobs: 500
 latency-wait: 60
 max-jobs-per-second: 50
-default-resources:
+default-resources:`
   - disk_mb=4096
   - mem_mb=16096
-  - runtime=120
-  - slurm_partition=cpu-g2
+  - runtime=1440
+  - cpu = 24
+  - slurm_partition=gpu-core-sponsored
+  - slrum_account=gpu-core-sponsored
   # you can change the default account or partition by them to the default-resources.
   # Without these options it will default to stergachislab and compute when using hyak.
 # - slurm_partition=ckpt
