@@ -33,7 +33,7 @@ test = { cmd = [
   "--configfile",
   "test.yaml",
   "-k",
-], depends_on = [
+], depends-on = [
   "test-data",
 ], clean-env = true }
 
