@@ -1,13 +1,15 @@
 jobs: 500
 latency-wait: 60
 max-jobs-per-second: 50
+
 # use-conda: true
 default-resources:
-  - disk_mb=4096
+  - disk_mb=500000
   - mem_mb=16096
-  - runtime=1440
+  - runtime=5760
   - slurm_partition=gpu-core-sponsored
   - slurm_account=gpu-core-sponsored 
+
 
 # you can change the default account or partition by them to the default-resources.
 # Without these options it will default to stergachislab and compute when using hyak.
