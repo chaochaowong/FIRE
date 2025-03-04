@@ -76,7 +76,7 @@ mean = (df["coverage"] * df["weight"]).sum() / df["weight"].sum()
 print(f"\nmean coverage: {mean}", file=sys.stderr)
 print(f"median coverage: {coverage}\n", file=sys.stderr)
 
-if coverage < 5:
+if coverage < 4:
     raise ValueError(
         f"Median coverage is {coverage}! Did you use the correct reference, or is data missing from most of your genome. We recommend at least 10x coverage to use FIRE and require at least 5x."
         "If you are only examining data from a subset of chromosomes, consider using the keep_chromosomes parameter in config.yaml"
