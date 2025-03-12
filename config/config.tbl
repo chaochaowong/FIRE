@@ -1,2 +1,4 @@
 sample	bam
-JRe13_M07e	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe13_M07e_FiberSeq_20241117/fibertools_results/aligned/1_B01/m84265_241116_000039_s2.hifi_reads_algined_fire.bam
+JRe59s1_WSU-AML_control	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s1_WSU-AML_control_sv_phase_m6A.bam
+JRe59s2_WSU-AML_Acla	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s2_WSU-AML_Acla_sv_phase_m6A.bam
+JRe59s3_WSU-AML_Doxo	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s3_WSU-AML_Doxo_sv_phase_m6A.bam

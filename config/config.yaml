@@ -1,6 +1,6 @@
-ref: /data/hps/assoc/public/bioinformatics/annotations/Homo_sapiens/UCSC/hg38/Sequence/WholeGenomeFasta/genome.fa # path to a reference fasta
+ref: "/data/hps/assoc/private/sarthy_lab/compbio/genome_index/GATK/GRCh38/Sequence/Homo_sapiens_assembly38.fasta"
 ref_name: hg38 # name of the reference genome, ideally use a ucsc name
-manifest: config/config.tbl # table with samples to process
+manifest: config/config.tbl
 max_t: 24 #Max number of threads to use in very distributed steps
 coverage_within_n_sd: 5 #Filter peaks that are more than x standard deviations from the mean coverage
 min_contig_length: 0 # defulat 0

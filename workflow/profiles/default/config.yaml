@@ -7,6 +7,6 @@ software-deployment-method:
   - conda
 show-failed-logs: True
 cores: 32
-local-cores: 4
+local-cores: 24
 # printshellcmds: True
 # quiet: rules # all rules or progress, cannot use all because it hides the unlock error message (and others?)

@@ -1,14 +1,18 @@
-jobs: 500
+jobs: 50
 latency-wait: 60
 max-jobs-per-second: 50
+executor: slurm
 
 # use-conda: true
 default-resources:
-  - disk_mb=500000
-  - mem_mb=16096
-  - runtime=5760
-  - slurm_partition=gpu-core-sponsored
-  - slurm_account=gpu-core-sponsored 
+#  - disk_mb=500000
+#  - mem_mb=16096
+  runtime: 5760
+  slurm_partition: gpu-core-sponsored
+  slurm_account: gpu-sarthy_lab-sponsored 
+  cpus_per_task: 32
+  mem_mb_per_cpu: 15000
+
 
 
 # you can change the default account or partition by them to the default-resources.
