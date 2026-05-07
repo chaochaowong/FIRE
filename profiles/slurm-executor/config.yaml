@@ -7,9 +7,9 @@ executor: slurm
 default-resources:
 #  - disk_mb=500000
 #  - mem_mb=16096
-  runtime: 5760
-  slurm_partition: gpu-core-sponsored
-  slurm_account: gpu-sarthy_lab-sponsored 
+  runtime: 20160
+  slurm_partition: gpu-core
+  slurm_account: sarthy_lab
   cpus_per_task: 32
   mem_mb_per_cpu: 15000
 

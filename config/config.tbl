@@ -1,4 +1,4 @@
 sample	bam
-JRe59s1_WSU-AML_control	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s1_WSU-AML_control_sv_phase_m6A.bam
-JRe59s2_WSU-AML_Acla	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s2_WSU-AML_Acla_sv_phase_m6A.bam
-JRe59s3_WSU-AML_Doxo	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/JRe59_AML-WSU_Doxo_Acla_FiberSeq_20250114/fibertools/JRe59s3_WSU-AML_Doxo_sv_phase_m6A.bam
+JR27_MOLM13_DMSO_merged.snv.phased	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/HSe85_MOLM13_DMSO-ACLA-ActD_CHM13_Merged_Fiberseq_20260211/fibertools/JR27_MOLM13_DMSO_merged.snv.phased.nucleosomes.bam
+JR28_MOLM13_ACLA_merged.snv.phased	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/HSe85_MOLM13_DMSO-ACLA-ActD_CHM13_Merged_Fiberseq_20260211/fibertools/JR28_MOLM13_ACLA_merged.snv.phased.nucleosomes.bam
+JR29_MOLM13_ActD_merged.snv.phased	/data/hps/assoc/private/sarthy_lab/NGS/FiberSeq_Results/HSe85_MOLM13_DMSO-ACLA-ActD_CHM13_Merged_Fiberseq_20260211/fibertools/JR29_MOLM13_ActD_merged.snv.phased.nucleosomes.bam
