@@ -30,6 +30,8 @@ rule shuffled_pileup_chromosome:
     output:
         bed=temp("temp/{sm}/shuffle/{v}-{chrom}.pileup.bed.gz"),
     threads: 4
+    resources:
+        mem_mb=get_mem_mb,
     conda:
         DEFAULT_ENV
     shell:
@@ -285,6 +287,8 @@ rule wide_fire_peaks:
     conda:
         DEFAULT_ENV
     threads: 4
+    resources:
+        mem_mb=get_mem_mb,
     params:
         nuc_size=config.get("nucleosome_size", 147),
         max_peak_fdr=MAX_PEAK_FDR,

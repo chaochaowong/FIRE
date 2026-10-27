@@ -10,8 +10,6 @@ default-resources:
   runtime: 20160
   slurm_partition: cpu-core
   slurm_account: sarthy_lab
-  cpus_per_task: 32
-  mem_mb_per_cpu: 7500
 
 
 

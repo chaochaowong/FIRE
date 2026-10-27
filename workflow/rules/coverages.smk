@@ -123,6 +123,8 @@ rule exclude_from_shuffle:
     output:
         bed="results/{sm}/additional-outputs-{v}/coverage/exclude-from-shuffles.bed.gz",
     threads: 4
+    resources:
+        mem_mb=get_mem_mb,
     conda:
         DEFAULT_ENV
     params:
